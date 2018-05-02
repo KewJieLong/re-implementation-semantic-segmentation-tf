@@ -1,0 +1,12 @@
+{
+  "model_path": "model-weights/vgg_16.ckpt",
+  "label_path": "imagenet_class_index.json",
+  "train_dir": "data/train",
+  "val_dir": "data/val",
+  "batch_size": 32,
+  "num_epoch": 10,
+  "learning_rate": 0.001,
+  "dropout_keep_prob": 0.5,
+  "weight_decay": 0.0005,
+  "image_size": 224
+}
